@@ -1,9 +1,10 @@
 'use server'
 
-export const fetchAnime = async () => {
-    // const response = await fetch(`https://shikimori.one/animes/page/${page}?order=popularity`);
-    const response = await fetch('https://shikimori.one/animes/page/4?order=popularity');
+export const fetchAnime = async (page: number) => {
+    const response = await fetch(`https://shikimori.one/api/animes?page/${page}?order=popularity`);
+
 
     const data = await response.json();
+    console.log(data);
     return data;
 }
