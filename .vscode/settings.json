@@ -6,10 +6,10 @@
       "source.addMissingImports": true
     },
     "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
