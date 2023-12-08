@@ -33,6 +33,13 @@ function Footer() {
           height={19}
           className="object-contain"
         />
+        <Image
+          src="./github.svg"
+          alt="logo"
+          width={25}
+          height={25}
+          className="object-contain"
+        />
       </div>
     </footer>
   );
