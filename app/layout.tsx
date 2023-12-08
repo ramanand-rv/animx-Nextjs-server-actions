@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
@@ -21,8 +22,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={dmSans.className}>
+        <div className="inline-flex items-center h-screen fixed">
+          <Sidebar />
+        </div>
         <main className="max-w-7xl mx-auto bg-[#0F1117]">
           <Hero />
+
           {children}
           <Footer />
         </main>
