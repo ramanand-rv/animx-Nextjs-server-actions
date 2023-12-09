@@ -11,7 +11,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AnimeX",
-  description: "Your favorite anime, all in one place.",
+  description: "Your favorite anime, all in one place. Made Using Server Actions",
 };
 
 export default function RootLayout({
